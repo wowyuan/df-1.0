@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
+	<title>DF-OpenECMS</title>
+	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
+	<!--<link rel="stylesheet" href="assets/css/bootstrap.min.css">-->
+	<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body class="home">
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-inverse navbar-fixed-top headroom" >
+		<div class="container">
+			<div class="navbar-header">
+				<!-- Button for smallest screens -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+				<a class="navbar-brand" href="index.html"><img src="assets/images/logo.svg" alt=""></a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav pull-right">
+					<li><a href="index.html">首页</a></li>
+					<li><a href="cpfa.html">产品方案</a></li>
+					<!--<li class="dropdown">
+						<a href="cpfa.html" class="dropdown-toggle" data-toggle="dropdown">产品方案 <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="DF-open.html">DF-OpenECMS电气综合监控</a></li>
+							<li><a href="DF-CMMC.html">DF-CMMC综合运维云平台</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">DCM6000智能电气终端</a></li>
+						</ul>
+					</li>-->
+					<li><a href="case.html">典型案例</a></li>
+					<li><a href="server.html">支持服务</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">关于大服 <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="aboutus.html">发展历程</a></li>
+							<li><a href="recruit.html">加入我们</a></li>
+							<li><a href="contact.html">联系我们</a></li>
+						</ul>
+					</li>
+					<li><a class="btn" href="signin.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> 登录</a></li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</div> 
+	<!-- /.navbar -->
+
+	<!-- Header -->
+	<header id="DF-open-head">
+		<div class="container">
+			<img src="assets/images/systemhead.png"/>
+		</div>
+	</header>
+	<!-- /Header -->
+	  <section class="introduce">
+	  	<div class="container">
+	  		<div class="content">
+		  		 <h2>系统介绍</h2>
+	            <span>SYSTEM INTRODUCTION</span>
+	            <p>DF-OpenECMS（Open Electric Comprehensive Management System） 电气综合监控系统综合借鉴了行业众多系统的功能及设计理念，依据行业最新需求标准，采用现代先进可靠的数据通信技术、网络安全信息交换技术，结合公司在行业领域多年的技术积累，研发出的新一代面向工业互联网海量数据采集、处理、监控的新一代综合分布式系统。DF-OpenECMS系统完全采用以C/C++、H5/CSS/JS为基础的自主框架构建，运行高效且具备强大的平台功能扩展和跨平台部署能力，具备先进的2D/3D数据图形拓扑展现力，可统一作为现有的中、低压变电所监控，能源管理，电气火灾，消防设备电源，浪涌保护等的综合监控管理系统，改变现场需要部署多套系统的现状，提高系统运行可靠性的同时降低系统整体运行费用。</p>
+	            <div class="down"></div>
+	  		</div>
+	  	</div>
+	  </section>
+	  <section class="fatures">
+	  	<div class="container">
+	  		<div class="row">
+	  			<div class="col-sm-6">
+		  			<div class="left">
+		                <h2>主要特点</h2>
+		                <span>MAIN FEATURES</span>
+		                <ul>
+		                    <li>支持Windows、Linux、iOS系统分布式跨平台部署</li>
+		                    <li>支持任意页面分屏显示、调阅及在线编辑发布功能</li>
+		                    <li>系统单点通讯故障自愈时间 &lt; 20ms</li>
+		                </ul>
+		  			</div>
+		  		</div>
+		  		<div class="col-sm-6">
+		  			<div class="right">
+		                <img src="assets/images/system_main.png"/>
+		  			</div>
+		  		</div>
+	  		</div>
+	  	</div>
+	  </section>
+	  <section class="support">
+	  	<div class="container">
+	  		<div class="row border">
+	  				<div class="col-sm-5">
+		  				<div class="left">
+		  					<img src="assets/images/systemshow_1.jpg" alt="" />
+		  					<ul>
+		  						<li>支持Windows、Linux、iOS系统分布式跨平台部署</li>
+		                        <li>支持任意页面分屏显示、调阅及在线编辑发布功能</li>
+		                        <li>系统单点通讯故障自愈时间 < 20ms</li>
+		  					</ul>
+		  				</div>
+	  				</div>
+		  			<div class="col-sm-2">
+		  				<div class="point">
+		  					<div></div>
+		  					<div></div>
+		  					<div></div>
+		  				</div>
+		  			</div>
+		  			<div class="col-sm-5">
+		  				<div class="right">
+		  					<img src="assets/images/systemshow_2.jpg" alt="" />
+		  					<ul>
+		  						<li>支持Windows、Linux、iOS系统分布式跨平台部署</li>
+		                        <li>支持任意页面分屏显示、调阅及在线编辑发布功能</li>
+		                        <li>系统单点通讯故障自愈时间 < 20ms</li>
+		  					</ul>
+		  				</div>
+		  			</div>
+	  			</div>
+	  	</div>
+	  </section>
+	   
+	<!--<section id="social">
+		<div class="container">
+			<div class="wrapper clearfix">
+				<div class="addthis_toolbox addthis_default_style">
+				<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+				<a class="addthis_button_tweet"></a>
+				<a class="addthis_button_linkedin_counter"></a>
+				<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+				</div>
+			</div>
+		</div>
+	</section>-->
+	
+
+	
+	<footer id="footer" class="top-space">
+
+		<div class="footer1">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">联系我们</h3>
+						<div class="widget-body">
+							 <p>021-54580195</p>
+				            <p>上海市闵行区漕河泾创新创业园新骏环路e座301</p>
+				            <span>support@dafudata.com</span>
+				            <div class="triangle"></div>
+						</div>
+					</div>
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">Follow me</h3>
+						<div class="widget-body">
+							<!--<p class="follow-me-icons">
+								<a href=""><i class="icon"></i></a>
+								<a href=""><i class="fa fa-weibo fa-2"></i></a>
+								<a href=""><i class="fa fa-dribbble fa-2"></i></a>
+								<a href=""><i class="fa fa-github fa-2"></i></a>
+								<a href=""><i class="fa fa-facebook fa-2"></i></a>
+							</p>-->	
+							<div class="weixin"></div>
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<h3 class="widget-title">合作伙伴</h3>
+						<div class="widget-body">
+							<div class="partner">合作伙伴预留位</div>
+							<div class="partner mar-w">合作伙伴预留位</div>
+							<div class="partner">合作伙伴预留位</div>
+						</div>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+		<div class="footer2">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 widget-body">
+						<p class="simplenav">
+							<a href="index.html">首页</a> | 
+							<a href="aboutus.html">关于</a> |
+							<a href="server.html">服务</a> |
+							<a href="contact.html">联系</a> |
+							<b><a href="signup.html">登录</a></b>
+						</p>
+					</div>
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="text-right">
+								©2017-2018 dafudata.com 版权&nbsp;&nbsp;沪ICP备17039254号
+							</p>
+						</div>
+					</div>
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+	</footer>	
+		
+
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<!--<script src="assets/js/jquery.min.js"></script>-->
+	<!--<script src="assets/js/bootstrap.min.js"></script>-->
+	<!--<script src="assets/js/headroom.min.js"></script>-->
+	<!--<script src="assets/js/jQuery.headroom.min.js"></script>-->
+	<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.4/headroom.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.4/jQuery.headroom.min.js"></script>
+	<script src="assets/js/template.js"></script>
+</body>
+<script>
+	$(document).ready(function(){
+//		var w=$(window).width();
+//		if(w>767){
+//			$('#pc').css('display','block');
+//			$('#app').css('display','none');
+//		}else{
+//			$('#app').css('display','block');
+//			$('#pc').css('display','none');
+//		}
+	})
+</script>
+</html>

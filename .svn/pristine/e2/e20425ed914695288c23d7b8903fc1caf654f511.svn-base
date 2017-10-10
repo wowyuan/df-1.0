@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
+	<title>发展历程</title>
+	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<!-- Custom styles for our template -->
+	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >
+	<link rel="stylesheet" href="assets/css/main.css">
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="assets/js/html5shiv.js"></script>
+	<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body class="home"  onload="lodemarker();">
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-inverse navbar-fixed-top headroom" >
+		<div class="container">
+			<div class="navbar-header">
+				<!-- Button for smallest screens -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+				<a class="navbar-brand" href="index.html"><img src="assets/images/dflogo.png" alt=""></a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav pull-right">
+					<li><a href="index.html">首页</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">产品方案 <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">DF-OpenECMS电气综合监控</a></li>
+							<li><a href="#">DF-CMMC综合运维云平台</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">DCM6000智能电气终端</a></li>
+						</ul>
+					</li>
+					<li><a href="case.html">典型案例</a></li>
+					<li><a href="server.html">支持服务</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">关于大服 <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="aboutus.html">发展历程</a></li>
+							<li><a href="recruit.html">加入我们</a></li>
+							<li><a href="contact.html">联系我们</a></li>
+						</ul>
+					</li>
+					<li><a class="btn" href="signin.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> 登录</a></li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</div> 
+	<!-- /.navbar -->
+
+	<!-- Header -->
+	<header id="aboutus-head">
+		<div class="container">
+			<div class="about-img">
+				<img src="assets/images/about_banner.png"/>
+			</div>
+		</div>
+	</header>
+	<!-- /Header -->
+	
+	<!--aboutus start-->
+	<!--about-->
+	<section class="aboutus">
+		<div class="container">
+			 <div class="content">
+	            <h2>关于我们</h2>
+	            <span></span>
+	            <p>上海大服数据技术有限公司是一家从事物联网通讯相关软、硬件产品技术研发，致力于提供面向城市建筑电气智能化综合监控系统及现场设施全生命周期运维管理一体化整体解决方案的高新技术企业。公司核心领导团队成员均来自于业内知名上市公司、外资企业，拥有超过20年以上的产品设计、市场营销及行业解决方案的丰富经验，公司于2016年取得了多项软件著作、产品专利，并成功申请了“大服”品牌注册商标，公司将始终坚持走独立创新技术发展之路，本着“科技使生活更美好”理念，将物联通讯、移动互联网、云计算、大数据分析等前沿技术应用于传统产业升级换代，为用户提供优质高效服务。</p>
+	            <div class="down"></div>
+        	</div>   
+		</div>
+	</section>	
+	<!--/about-->
+	
+	<!--timestatus-->
+	<section class="timestatus">
+		<div class="container">
+			 <div class="content">
+	            <h2>数据 · 分析</h2>
+	            <p><span>云采集</span><span>云监控</span><span>云管理</span></p>
+	            <div class="status">
+	            	<!--<img src="assets/images/about_status.jpg"/>-->
+	                <span>初创团队建设，系统调研</span>
+	                <span>系统原型设计开发</span>
+	                <span>落户上海浦江漕河泾创新创业园</span>
+	                <span>与多家大型企业达成合作意向</span>
+	            </div>
+             </div>
+		</div>
+    </section>
+	<!--/time-->
+	
+	<!--contactus-->
+	<section class="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="left">
+						<h2>联系我们</h2>
+						<div class="us-line"></div>
+						<span>CONTACT</span>
+						<div class="box">
+							<ul>
+								<li>联系电话：+86(21)54477595</li>
+								<li>公司邮箱：support@dafudata.com</li>
+								<li>公司地址：上海市闵行区漕河泾创新创业园新骏环路e座301</li>
+								<li>乘车路线：江月路地铁站--闵行12路公交车--漕河泾创新创业园</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					 <div id="map" class="right"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--/contactus-->
+    <!--aboutus  end-->	
+   
+	<!--<section id="social">
+		<div class="container">
+			<div class="wrapper clearfix">
+				<div class="addthis_toolbox addthis_default_style">
+				<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+				<a class="addthis_button_tweet"></a>
+				<a class="addthis_button_linkedin_counter"></a>
+				<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+				</div>
+			</div>
+		</div>
+	</section>-->
+	
+
+
+	<footer id="footer" class="top-space">
+
+		<div class="footer1">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">联系我们</h3>
+						<div class="widget-body">
+							<p>+86(21)54477595<br>
+								<a href="mailto:#">support@dafudata.com</a><br>
+								<br>
+								上海市闵行区漕河泾创新创业园新骏环路e座301
+							</p>	
+						</div>
+					</div>
+
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">Follow me</h3>
+						<div class="widget-body">
+							<p class="follow-me-icons">
+								<a href=""><i class="icon"></i></a>
+								<!--<a href=""><i class="fa fa-weibo fa-2"></i></a>
+								<a href=""><i class="fa fa-dribbble fa-2"></i></a>
+								<a href=""><i class="fa fa-github fa-2"></i></a>
+								<a href=""><i class="fa fa-facebook fa-2"></i></a>-->
+							</p>	
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<h3 class="widget-title">Text widget</h3>
+						<div class="widget-body">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, dolores, quibusdam architecto voluptatem amet fugiat nesciunt placeat provident cumque accusamus itaque voluptate modi quidem dolore optio velit hic iusto vero praesentium repellat commodi ad id expedita cupiditate repellendus possimus unde?</p>
+						</div>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+		<div class="footer2">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="simplenav">
+								<a href="index.html">Home</a> | 
+								<a href="aboutus.html">About</a> |
+								<a href="sidebar-right.html">Sidebar</a> |
+								<a href="contact.html">Contact</a> |
+								<b><a href="signup.html">Sign up</a></b>
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="text-right">
+								Copyright &copy; 2014, Your name. Designed by <a href="http://gettemplate.com/" rel="designer">gettemplate</a> 
+							</p>
+						</div>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+	</footer>	
+		
+
+
+
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/headroom.min.js"></script>
+	<script src="assets/js/jQuery.headroom.min.js"></script>
+	<script src="assets/js/template.js"></script>
+	<script src="http://api.map.baidu.com/api?v=2.0&ak=KnnZkjjN0UQoGnBumaDN528MyPDhghqz"></script>
+    <script src="assets/js/map.js"></script>
+</body>
+</html>
